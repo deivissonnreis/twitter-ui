@@ -33,7 +33,7 @@ const LeftMenu: React.FC<ILeftMenu> = ({selected}) => {
         <Logo />
 
         <MenuButton >
-          <Link to='/feed' selected={selected === 'home'}>
+          <Link to='/home' selected={selected === 'home'}>
             <HomeIcon />
             <span>Home</span>
          </Link>

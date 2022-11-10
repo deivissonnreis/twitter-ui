@@ -1,7 +1,7 @@
 import React from 'react';
 import LeftMenu from '../../components/LeftMenu'
 import RightMenu from '../../components/RightMenu'
-import SignUp from '../../components/SignUp'
+import SignUp from '../../components/SignUpBar'
 
 import img1 from '../../assets/imgs/img2.jpg'
 import img2 from '../../assets/imgs/backgot.jpg'
@@ -33,7 +33,9 @@ interface IProfileScreen{
 
 const ProfileScreen: React.FC<IProfileScreen> = ({background}) => {
 
-    const posts = [{
+    const newPosts = localStorage.getItem('posts')? JSON.parse(localStorage.getItem('posts') || '{}')  : []
+
+    const myposts = [{
 
         name: 'Jerome Bell',
         nick: '@afonsoinocente',
@@ -106,7 +108,7 @@ const ProfileScreen: React.FC<IProfileScreen> = ({background}) => {
                                 </ul>
                             </Buttons>
 
-                            <Feed posts={posts}/>
+                            <Feed posts={[...newPosts, ...myposts]}/>
                     </ProfileMain>
 
                     <RightMenu/>

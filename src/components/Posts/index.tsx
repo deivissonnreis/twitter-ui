@@ -43,7 +43,7 @@ import {
   
             <Description>{discription}</Description>
   
-            <ImageContent ImageSource={ImageSource}/>
+            {ImageSource? <ImageContent ImageSource={ImageSource}/> : null}
   
             <Icons>
               <Status>

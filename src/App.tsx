@@ -6,8 +6,10 @@ import {
   Routes,
 } from "react-router-dom";
 
-import FeedScreen from './pages/FeedScreen';
+import HomeScreen from './pages/HomeScreen';
 import ProfileScreen from './pages/ProfileScreen';
+import LogInScreen from './pages/LogInScreen';
+import SignUpScreen from './pages/SignUpScreen';
 import Screen404 from './pages/Screen404';
 
 import  backgot from './assets/imgs/backgot.jpg'
@@ -20,9 +22,11 @@ function App() {
     <Router>
       <GlobalStyles/>
       <Routes>
-        <Route path='/feed' element={<FeedScreen/>}/>
+        <Route path='/home' element={<HomeScreen/>}/>
         <Route path='/profile' element={<ProfileScreen background={backgot}/>}/>
         <Route path='/404' element={<Screen404/>}/>
+        <Route path='/login' element={<LogInScreen/>}/>
+        <Route path='/signup' element={<SignUpScreen/>}/>
       </Routes>
     </Router>
   );
