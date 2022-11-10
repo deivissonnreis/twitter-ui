@@ -40,7 +40,7 @@
 ### 4 - And this is the same than home page, but there's only the profile content to be showed
 ![Profile page](https://github.com/deivissonnreis/twitter-ui/blob/main/src/assets/imgs/profilepage.JPG)
 
-### 5 - The 404 erro when is clicked in the other button that's no the HOME or PROFILE. (just the left bar (NOT 'TWEET' BUTTON))
+### 5 - The 404 erro when is clicked in the other button that's not the HOME or PROFILE. (just the left bar (NOT 'TWEET' BUTTON))
 ![error 404](https://github.com/deivissonnreis/twitter-ui/blob/main/src/assets/imgs/404.JPG)
 
 ## Features
