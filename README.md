@@ -21,8 +21,8 @@
   any IDE and a browser
   
 * To log in the home page.
-  user is default: 'j@gmail.com
-  password : '1234'
+  * user is default: 'j@gmail.com | password : '1234' |
+   
   
 ## How to use
 
