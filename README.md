@@ -1,46 +1,72 @@
-# Getting Started with Create React App
+# Twitter-UI
+![Project logo](https://github.com/deivissonnreis/twitter-ui/blob/main/src/assets/svgs/icon.svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Developed
+- Login form, Home, Profile and Sign up Page.
+- developed for compass.uol PB.
+- hope you enjoy the project 
 
-## Available Scripts
+## Technology
+* Reactjs
+* TypeScript
+* Styled-Components
+* git 
 
-In the project directory, you can run:
 
-### `npm start`
+## Getting Started! 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* To run the project
+  cd twitter-ui
+  npm start
+  any IDE and a browser
+  
+* To log in the home page.
+  user is default: 'j@gmail.com
+  password : '1234'
+  
+## How to use
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 1 - The fist page is the login. you can use the login above to log in the home page
+![login page](https://github.com/deivissonnreis/twitter-ui/blob/main/src/assets/imgs/login.JPG)
 
-### `npm test`
+### 2 - This is the sign up page. but there's only front developed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Sign Up page](https://github.com/deivissonnreis/twitter-ui/blob/main/src/assets/imgs/signup.JPG)
 
-### `npm run build`
+### 3 - This is the page when is logged at the login, the home page where's showing the feed
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Home page](https://github.com/deivissonnreis/twitter-ui/blob/main/src/assets/imgs/homepage.JPG)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 4 - And this is the same than home page, but there's only the profile content to be showed
+![Profile page](https://github.com/deivissonnreis/twitter-ui/blob/main/src/assets/imgs/profilepage.JPG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 5 - The 404 erro when is clicked in the other button that's no the HOME or PROFILE. (just the left bar (NOT 'TWEET' BUTTON))
+![error 404](https://github.com/deivissonnreis/twitter-ui/blob/main/src/assets/imgs/404.JPG)
 
-### `npm run eject`
+## Features
+- Login and passoword user (above)
+- Post something but it's necessary to write to post it.
+- Post image, but needs to write something else.
+- Sign up page
+- there's no how to enter at home page withou login (teory)
+- profile page shows only our posts
+- it will show 404 page when clicked on another button unless the HOME and PROFILE. (as quoted above. Img 5#)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Links
+  - Repository: https://github.com/deivissonnreis/twitter-ui
+  - Linkedin: https://www.linkedin.com/in/deivisson-reisc/
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Version
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  - 0.0.1
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+** Deivisson Reis **
+  Connect me in linkedin!
+  thanks for you visit!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- UX/UI : Compass.UOL
+- Login and sign up UI: Bobur Mavlonov | figma: https://www.figma.com/community/file/1013470200889674140
+
