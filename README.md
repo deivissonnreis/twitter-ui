@@ -70,3 +70,6 @@
 - UX/UI : Compass.UOL
 - Login and sign up UI: Bobur Mavlonov | figma: https://www.figma.com/community/file/1013470200889674140
 
+## Copyright
+** ALL RIGHTS RESERVED TO TWITTER **
+
